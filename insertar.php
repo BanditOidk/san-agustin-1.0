@@ -21,7 +21,28 @@
 		</div>
 		<br>
 		<div class="form-group col-md-5">
-		<textarea type="text" name="descripcion" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+		<textarea type="text" name="descripcion1" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion2" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion3" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion4" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion5" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion6" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion7" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group col-md-5">
+		<textarea type="text" name="descripcion8" placeholder="Descipcion" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
 		</div>
         <br>
 		<div class="form-group col-md-5">

@@ -100,11 +100,35 @@ section .container{
     text-align: center;
     padding: 10px 12px;
 }
+.modal h1{
+    text-align: center;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+.modal img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.modal a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    text-align: center;
+
+}
 footer{
     background-color: #f2793c;
 }
 footer p{
     font-size: smaller;
+    
 }
 
 
@@ -154,36 +178,7 @@ footer p{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-#modal{
-    text-align: center;
-}
-#modal h1{
-    text-align: center;
-    position: relative;
-    
-}
-#modal p{
-    text-align: left;
-    width: 205px;
-    margin-left: 100px;
-    position: relative;
-    bottom: 250px; left: 350px;
-    
-}
-#modal a{
-    position: relative;
-    bottom: 100px;
-    text-align: center;
-    font-size: 2.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#modal img{
-    position: relative;
-    top: 50px;
-    width: 355px;
-    height: 355px;
-    vertical-align: middle;
-}
+
 #nuestras  {
     position:  relative;
     bottom: -20px;
@@ -256,6 +251,33 @@ footer p{
     #peri{
         width: 15%;
         height: auto;
+    }
+    .modal h1{
+        text-align: center;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+    }
+    .modal img{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 420px;
+      height: auto;
+    }
+    .modal a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-family: 'Fredoka One', cursive;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .modal P{
+        text-align: left;
     }
     
   

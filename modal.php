@@ -17,20 +17,27 @@ $data = pg_fetch_assoc($consulta);
  </head>
  <body>
  <?php include "template/header.php"; ?>
- <br> <br> <br> <br> <br> <br> <br> <br>
- <section id="modal">
- <!-- <div class="container"> -->
-         <h1><?php echo $data['nombre'];?></h1>
+ <br> <br> <br> <br> <br>
+ <div class="container">
+ <section class="modal">
+
+      <h1><?php echo $data['nombre'];?></h1>
+ 	<img src="<?php echo ($data['imagen']); ?>">
+    <p ><?php echo $data['descripcion1']; ?></p>
+    <p ><?php echo $data['descripcion2']; ?></p>
+    <p ><?php echo $data['descripcion3']; ?></p>
+    <p ><?php echo $data['descripcion4']; ?></p>
+    <p ><?php echo $data['descripcion5']; ?></p>
+    <p ><?php echo $data['descripcion6']; ?></p>
+    <p ><?php echo $data['descripcion7']; ?></p>
+    <p ><?php echo $data['descripcion8']; ?></p>
+	<h2>s/.<?php echo $data ['precio']; ?></h2>
 		 
- 		 <img src="<?php echo ($data['imagen']); ?>"> 
-		 <a>s/.<?php echo $data ['precio']; ?></a>
-         <p ><?php echo $data['descripcion']; ?></p>
-		 
-		
-		 <!-- </div> -->
+
 		 </section>
-		 
+		 </div>
  </body>
+ <br><br><br><br>
  <?php include "template/footer.php"; ?>
 
  </html>

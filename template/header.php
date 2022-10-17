@@ -18,7 +18,7 @@
             <a href="accesorios.php">Perifericos</a>
             <a href="productos.php">Productos</a>
             <a href="#contacto">Contacto</a>
-         <!-- <a href="insertar.php">Inserter</a> -->
+         <a href="insertar.php">Inserter</a>
         </nav>
 
     </div>
