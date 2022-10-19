@@ -1,6 +1,7 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -8,8 +9,10 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-image: radial-gradient(circle at 50% -20.71%, #d7c35d 0, #deba54 8.33%, #e4b04d 16.67%, #e9a546 25%, #ed9841 33.33%, #f0893e 41.67%, #f2793c 50%, #f3673d 58.33%, #f35542 66.67%, #f34249 75%, #f22b52 83.33%, #f0065d 91.67%, #ec0069 100%);
-    width: 100%;
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
     height: 100%;
     letter-spacing: 0.03em;
     line-height: 1.6;
@@ -43,7 +46,6 @@ header .logo{
     text-align: center;
     width: 300px;
 }
-
 header .logo{
     margin: 0;
     padding: 10px 15px ;
@@ -71,12 +73,12 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    font-family: 'Fredoka One', cursive;
-    font-size: 20px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
     
 }
 header a:hover{
-    color: rgb(255, 217, 0) ;
+    color: rgb(255, 0, 0) ;
 }
 
 
@@ -102,7 +104,7 @@ section .container{
 }
 .modal h1{
     text-align: center;
-    font-family: 'Fredoka One';
+    font-family: 'Paytone One', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -118,7 +120,7 @@ section .container{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     text-align: center;
 
@@ -138,7 +140,7 @@ footer p{
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 100px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Paytone One', sans-serif;
 }
 .container{
     width: auto;
@@ -200,7 +202,10 @@ footer p{
     header{
         position: fixed;
         width: 100%;
-        background-image: radial-gradient(circle at 49.65% 45.97%, #e97600 0, #ef6600 12.5%, #f35400 25%, #f63c00 37.5%, #f80f0f 50%, #f9001e 62.5%, #f8002b 75%, #f70037 87.5%, #f50044 100%);
+        background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         
     }
     header .container{
@@ -254,7 +259,7 @@ footer p{
     }
     .modal h1{
         text-align: center;
-        font-family: 'Fredoka One';
+        font-family: 'Paytone One', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-display: swap;
@@ -271,7 +276,7 @@ footer p{
         text-decoration: none;
         font-weight: bold;
         color: black;
-        font-family: 'Fredoka One', cursive;
+        font-family: 'Paytone One', sans-serif;
         font-size: 20px;
         text-align: center;
     
