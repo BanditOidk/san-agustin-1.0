@@ -11,9 +11,12 @@ if(isset($_POST["save2"])){
         
         $query = "INSERT into marcas (nombre, imagen) VALUES ('$nombre','$imagen')";
         if($result = pg_query($conexion, $query)){
-            echo "File uploaded successfully.";
-        }else{
-            echo "File upload failed, please try again.";
+            echo "<script>alert('Añadido con Exito') </script>";
+            echo "<script>setTimeout(\"location.href='insertar.php'\",1000)</script>";
+	 }
+	else{
+		echo "<script>alert('Error al Añadir') </script>";
+        echo "<script>setTimeout(\"location.href='insertar.php'\",1000)</script>";
         } 
 
 }

@@ -20,10 +20,12 @@ if(isset($_POST['save']))
 	 $query = "INSERT INTO perifericos(marca,tipo,nombre,descripcion1,descripcion2,descripcion3,descripcion4,descripcion5,descripcion6,descripcion7,descripcion8,precio,imagen) 
 	 values ('$marca','$tipo','$nombre','$descripcion1','$descripcion2','$descripcion3','$descripcion4','$descripcion5','$descripcion6','$descripcion7','$descripcion8','$precio','$imagen')";
 	 if($result = pg_query($query)){
-		echo "Data Added Successfully.";
+		echo "<script>alert('Añadido con Exito') </script>";
+        echo "<script>setTimeout(\"location.href='insertar.php'\",1000)</script>";
 	 }
 	else{
-		echo "Error.";
+		echo "<script>alert('Error al Añadir') </script>";
+        echo "<script>setTimeout(\"location.href='insertar.php'\",1000)</script>";
 	 }
 }
 ?>
