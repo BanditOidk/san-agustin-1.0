@@ -13,52 +13,56 @@
 <?php include "template/header.php"; ?>
 <br><br><br><br><br>
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h1>Servicio Tecnico</h1>
+  <p>Mantenimiento y reparacion de equipos de computo</p>
+  <p>En Computo San Agustin encontrara tecnicos altamente capacitaos para sale solucion a sus problemas <br>
+     y dejar su equipo en perfectas condiciones para s funcionamiento y uso diario</p>
 </div>
 
-<h2 style="text-align:center">Our Team</h2>
+<h2 style="text-align:center">Nuestros Servicios</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="Jane" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Servicios Tecnico - Laptops</h2>
+        <p class="title">locales 1 y 2</p>
+        <p>Instalacion de sistema operativo, recuperacion de archivos, instalacion de software, reparacion de laptops, cambio de pantalla, cambio de teclado, etc.</p>
+        
+        <p><button class="button"><a href="#contacto">Direccion</a></button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Servicios Tecnico - Computadoras</h2>
+        <p class="title">locales 1 y 2</p>
+        <p>Instalacion o actualizacion de sistema, mantenimiento preventivo y correctivo, instalacion de programas, recuperacion de archivos,
+          armado de pc's</p>
+        
+        <p><button class="button"><a href="#contacto">Direccion</a></button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="John" style="width:100%">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Servicios Tecnico - Impresoras</h2>
+        <p class="title">locales 1 y 2</p>
+        <p>atascos de papel, calidad de impresion(manchas), ruidos extraños, sustitucion de piezas rotas o desgastadas, trabajamos con todos los modelos</p>
+  
+        <p><button class="button"><a href="#contacto">Direccion</a></button></p>
       </div>
     </div>
   </div>
+
 </div>
+<br>  <br> 
 <?php include "template/footer.php"; ?>
 </body>
 

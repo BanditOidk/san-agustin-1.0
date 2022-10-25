@@ -11,7 +11,7 @@
     
 
 <header>
-    <div class="container">
+    <div class="containerh">
        <a href="index.php"> <img src="images/logo1.png" alt="" class="logo"> </a>
         <nav>
             <a href="index.php">Inicio</a>
