@@ -46,7 +46,10 @@
         include("conexion.php");
         $query = "SELECT * FROM destacados";
         $consulta = pg_query($conexion, $query);
-            while($row = pg_fetch_assoc($consulta)){
+        $counter = 0;
+        $max = 3;
+            while(($row = pg_fetch_assoc($consulta)) and ($counter < $max)){
+                $counter++;
             ?>
             <a href="modal.php?id=<?php echo $row['id_producto']; ?>"><img src="<?php echo($row['imagen']); ?>" height="300" width="380" ></a>
 
