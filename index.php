@@ -21,10 +21,11 @@
         <div class="container">
                  <?php 
         include("conexion.php");
-        $query = "SELECT * FROM computadoras LIMIT 0,3";
+        $query = "SELECT * FROM computadoras";
         $consulta = pg_query($conexion, $query);
+        // limitar prductos
         $counter = 0;
-        $max = 3;
+        $max = 4;
             while(($row = pg_fetch_assoc($consulta)) and ($counter < $max)){
                 $counter++;
             ?>
