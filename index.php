@@ -21,15 +21,16 @@
         <div class="container">
                  <?php 
         include("conexion.php");
-        $query = "SELECT * FROM computadoras";
+        $query = "SELECT * FROM computadoras LIMIT 0,3";
         $consulta = pg_query($conexion, $query);
         $counter = 0;
         $max = 3;
             while(($row = pg_fetch_assoc($consulta)) and ($counter < $max)){
+                $counter++;
             ?>
               <a href="modal.php?id=<?php echo $row['id_producto']; ?>"><img src="<?php echo($row['imagen']); ?>" height="380" width="380" ></a>
                       
-
+              
         <?php
         }
         ?>
