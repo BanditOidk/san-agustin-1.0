@@ -23,7 +23,9 @@
         include("conexion.php");
         $query = "SELECT * FROM computadoras";
         $consulta = pg_query($conexion, $query);
-            while($row = pg_fetch_assoc($consulta)){
+        $counter = 0;
+        $max = 3;
+            while(($row = pg_fetch_assoc($consulta)) and ($counter < $max)){
             ?>
               <a href="modal.php?id=<?php echo $row['id_producto']; ?>"><img src="<?php echo($row['imagen']); ?>" height="380" width="380" ></a>
                       
