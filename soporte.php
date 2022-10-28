@@ -26,7 +26,7 @@
       <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="Jane" style="width:100%">
       <div class="container">
         <h2>Servicios Tecnico - Laptops</h2>
-        <p class="title">locales 1 y 2</p>
+        <p class="title">Tiendas 1 y 2</p>
         <p>Instalacion de sistema operativo, recuperacion de archivos, instalacion de software, reparacion de laptops, cambio de pantalla, cambio de teclado, etc.</p>
         
         <p><button class="button"><a href="#contacto">Direccion</a></button></p>
@@ -39,7 +39,7 @@
       <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="Mike" style="width:100%">
       <div class="container">
         <h2>Servicios Tecnico - Computadoras</h2>
-        <p class="title">locales 1 y 2</p>
+        <p class="title">Tiendas 1 y 2</p>
         <p>Instalacion o actualizacion de sistema, mantenimiento preventivo y correctivo, instalacion de programas, recuperacion de archivos,
           armado de pc's</p>
         
@@ -53,7 +53,7 @@
       <img src="https://img.freepik.com/fotos-premium/tecnologia-pc-taller-reparacion-computadoras-ingeniero-realizando-mantenimiento-portatiles-desarrollador-hardware-arreglando-componentes-electronicos_253401-2027.jpg" alt="John" style="width:100%">
       <div class="container">
         <h2>Servicios Tecnico - Impresoras</h2>
-        <p class="title">locales 1 y 2</p>
+        <p class="title">Tiendas 1 y 2</p>
         <p>atascos de papel, calidad de impresion(manchas), ruidos extraños, sustitucion de piezas rotas o desgastadas, trabajamos con todos los modelos</p>
   
         <p><button class="button"><a href="#contacto">Direccion</a></button></p>
