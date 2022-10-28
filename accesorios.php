@@ -15,7 +15,7 @@
     <div class="container">
         <?php 
         include("conexion.php");
-        $query = "SELECT * FROM perifericos";
+        $query = "SELECT * FROM productos WHERE tipo='Periferico'";
         $consulta = pg_query($conexion, $query);
         while($row = pg_fetch_assoc($consulta)){
             ?>
