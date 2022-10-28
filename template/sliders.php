@@ -11,8 +11,8 @@
     <div class="slider-frame">
         <ul>
             <li><img src="images/bannerbeta.png" alt=""></li>
-            <li><img src="images/banerbrillos.png" alt=""></li>
             <li><img src="images/bannercamara.png" alt=""></li>
+            <li><img src="images/banerbrillos.png" alt=""></li>
             <li><img src="images/slider2.jpg" alt=""></li>
             
             
